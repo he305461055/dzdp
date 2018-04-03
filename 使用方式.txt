@@ -1,0 +1,9 @@
+最近新换的爬虫框架scrapy（老的还在跑），准备下周换掉老的框架
+
+1.我用的python版本是3.5，直接pip install scrapy ，就能把scrapy框架安装好。（配置好环境变量 ‘你的python安装目录/script’ 在你的path变量中）
+
+2.装好框架后把这个文件夹丢到C:\Users\Administrator\目录下（应该是默认的这个路径，如果不是得再cmd中执行scrapy startproject 名字随便写，看看生成的文件在那个目录就是那个目录了）
+
+3.然后cmd到该文件的根目录下，执行scrapy crawl dzdp -o 名字随便写.csv -L WARNING，生成的文件就可以看了
+
+4.代码还不完善，还在完善中
